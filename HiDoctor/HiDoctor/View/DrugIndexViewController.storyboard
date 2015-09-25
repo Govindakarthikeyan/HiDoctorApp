@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fnv-fu-s4L">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <scenes>
+        <!--Drug Index-->
+        <scene sceneID="Edo-Ln-fHC">
+            <objects>
+                <viewController storyboardIdentifier="drugVcID" id="Q5C-3I-6Ke" customClass="DrugIndexViewController" customModule="HiDoctor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1MN-eG-wVz"/>
+                        <viewControllerLayoutGuide type="bottom" id="aSB-3o-eFH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ScG-Tx-opk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drug" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYo-QW-13H">
+                                <rect key="frame" x="281" y="289" width="38" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hYo-QW-13H" firstAttribute="centerX" secondItem="ScG-Tx-opk" secondAttribute="centerX" id="1Ru-FU-X2V"/>
+                            <constraint firstItem="hYo-QW-13H" firstAttribute="centerY" secondItem="ScG-Tx-opk" secondAttribute="centerY" id="zyB-WV-ZUt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Drug Index" id="2lp-V8-ZOI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="60N-Kg-Z3C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2055" y="315"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ODp-Oe-GSa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fnv-fu-s4L" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TVN-7t-HsO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Q5C-3I-6Ke" kind="relationship" relationship="rootViewController" id="GVB-M2-aKp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K2P-C6-6Mj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1243" y="315"/>
+        </scene>
+    </scenes>
+</document>

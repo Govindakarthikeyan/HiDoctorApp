@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CX2-Yw-HL4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+    </dependencies>
+    <scenes>
+        <!--Patient-->
+        <scene sceneID="0nv-ec-YoG">
+            <objects>
+                <viewController storyboardIdentifier="patientVcID" id="6nr-A1-4he" customClass="PatientViewController" customModule="DrBond" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oNw-Kn-X9M"/>
+                        <viewControllerLayoutGuide type="bottom" id="omX-i8-PeE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vhc-uD-sYg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cwa-fE-lNI">
+                                <rect key="frame" x="8" y="72" width="584" height="29"/>
+                                <segments>
+                                    <segment title="Patients"/>
+                                    <segment title="Patient Queries"/>
+                                    <segment title="Third"/>
+                                    <segment title="Fourth"/>
+                                </segments>
+                                <connections>
+                                    <action selector="indexChanged:" destination="6nr-A1-4he" eventType="valueChanged" id="Ld0-h0-lfw"/>
+                                </connections>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AdM-6j-9lS">
+                                <rect key="frame" x="0.0" y="109" width="600" height="491"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" tag="1" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fBA-ps-t7w">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="491"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="pIF-ux-Yze">
+                                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pIF-ux-Yze" id="t4d-uF-NyA">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="6nr-A1-4he" id="52Q-aW-7S3"/>
+                                            <outlet property="delegate" destination="6nr-A1-4he" id="a9p-ER-sEJ"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="fBA-ps-t7w" secondAttribute="bottom" id="Tya-v3-hhc"/>
+                                    <constraint firstItem="fBA-ps-t7w" firstAttribute="centerX" secondItem="AdM-6j-9lS" secondAttribute="centerX" id="ag0-dm-Sa8"/>
+                                    <constraint firstItem="fBA-ps-t7w" firstAttribute="width" secondItem="AdM-6j-9lS" secondAttribute="width" id="ber-hs-ovX"/>
+                                    <constraint firstItem="fBA-ps-t7w" firstAttribute="top" secondItem="AdM-6j-9lS" secondAttribute="top" id="bmE-RA-pb3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z3k-qW-a9l">
+                                <rect key="frame" x="0.0" y="109" width="600" height="491"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" tag="2" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LQh-12-wRp">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="491"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="4CU-2O-wdX">
+                                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4CU-2O-wdX" id="4qH-il-5fx">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="6nr-A1-4he" id="r7F-10-W6v"/>
+                                            <outlet property="delegate" destination="6nr-A1-4he" id="vXg-k6-0Eq"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="LQh-12-wRp" firstAttribute="width" secondItem="z3k-qW-a9l" secondAttribute="width" id="TE0-gD-eHU"/>
+                                    <constraint firstItem="LQh-12-wRp" firstAttribute="top" secondItem="z3k-qW-a9l" secondAttribute="top" id="YbK-vz-Rcv"/>
+                                    <constraint firstAttribute="bottom" secondItem="LQh-12-wRp" secondAttribute="bottom" id="jue-lT-6nQ"/>
+                                    <constraint firstItem="LQh-12-wRp" firstAttribute="centerX" secondItem="z3k-qW-a9l" secondAttribute="centerX" id="s25-ja-RbL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LGP-Zj-OZn">
+                                <rect key="frame" x="0.0" y="109" width="600" height="491"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9SL-y2-G1J">
+                                        <rect key="frame" x="250" y="235" width="100" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="fQn-Hh-3ju"/>
+                                            <constraint firstAttribute="height" constant="21" id="tkD-H4-FjX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="9SL-y2-G1J" firstAttribute="centerY" secondItem="LGP-Zj-OZn" secondAttribute="centerY" id="WQm-Rl-9h1"/>
+                                    <constraint firstItem="9SL-y2-G1J" firstAttribute="centerX" secondItem="LGP-Zj-OZn" secondAttribute="centerX" id="Zc3-gS-PBk"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JDr-H2-ia3">
+                                <rect key="frame" x="0.0" y="109" width="600" height="491"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhF-GZ-1dL">
+                                        <rect key="frame" x="266" y="235" width="68" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="xhF-GZ-1dL" firstAttribute="centerX" secondItem="JDr-H2-ia3" secondAttribute="centerX" id="7E8-CF-Wbk"/>
+                                    <constraint firstItem="xhF-GZ-1dL" firstAttribute="centerY" secondItem="JDr-H2-ia3" secondAttribute="centerY" id="lpG-O1-YVl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AdM-6j-9lS" firstAttribute="centerX" secondItem="Vhc-uD-sYg" secondAttribute="centerX" id="7fD-A0-BTp"/>
+                            <constraint firstItem="AdM-6j-9lS" firstAttribute="width" secondItem="Vhc-uD-sYg" secondAttribute="width" id="7v3-t5-n9M"/>
+                            <constraint firstItem="omX-i8-PeE" firstAttribute="top" secondItem="JDr-H2-ia3" secondAttribute="bottom" id="BAv-tS-YA5"/>
+                            <constraint firstItem="omX-i8-PeE" firstAttribute="top" secondItem="z3k-qW-a9l" secondAttribute="bottom" id="Bbs-gN-Z97"/>
+                            <constraint firstItem="z3k-qW-a9l" firstAttribute="top" secondItem="cwa-fE-lNI" secondAttribute="bottom" constant="9" id="C68-y2-GVr"/>
+                            <constraint firstItem="LGP-Zj-OZn" firstAttribute="top" secondItem="cwa-fE-lNI" secondAttribute="bottom" constant="9" id="Hy2-Ch-uB3"/>
+                            <constraint firstItem="cwa-fE-lNI" firstAttribute="width" secondItem="Vhc-uD-sYg" secondAttribute="width" constant="-16" id="LP1-nI-lOU"/>
+                            <constraint firstItem="JDr-H2-ia3" firstAttribute="centerX" secondItem="Vhc-uD-sYg" secondAttribute="centerX" id="OdV-SC-P69"/>
+                            <constraint firstItem="LGP-Zj-OZn" firstAttribute="width" secondItem="Vhc-uD-sYg" secondAttribute="width" id="PAu-CO-T7N"/>
+                            <constraint firstItem="omX-i8-PeE" firstAttribute="top" secondItem="LGP-Zj-OZn" secondAttribute="bottom" id="R1D-a5-jNC"/>
+                            <constraint firstItem="z3k-qW-a9l" firstAttribute="centerX" secondItem="Vhc-uD-sYg" secondAttribute="centerX" id="SAs-c0-LqY"/>
+                            <constraint firstItem="cwa-fE-lNI" firstAttribute="centerX" secondItem="Vhc-uD-sYg" secondAttribute="centerX" id="YvZ-aL-H2L"/>
+                            <constraint firstItem="omX-i8-PeE" firstAttribute="top" secondItem="AdM-6j-9lS" secondAttribute="bottom" id="aBC-ae-d5M"/>
+                            <constraint firstItem="z3k-qW-a9l" firstAttribute="width" secondItem="Vhc-uD-sYg" secondAttribute="width" id="aEI-Li-fws"/>
+                            <constraint firstItem="JDr-H2-ia3" firstAttribute="width" secondItem="Vhc-uD-sYg" secondAttribute="width" id="cge-Oz-SNd"/>
+                            <constraint firstItem="AdM-6j-9lS" firstAttribute="top" secondItem="cwa-fE-lNI" secondAttribute="bottom" constant="9" id="f9y-HX-DEy"/>
+                            <constraint firstItem="JDr-H2-ia3" firstAttribute="top" secondItem="cwa-fE-lNI" secondAttribute="bottom" constant="9" id="fQs-sr-Bek"/>
+                            <constraint firstItem="LGP-Zj-OZn" firstAttribute="centerX" secondItem="Vhc-uD-sYg" secondAttribute="centerX" id="grf-eb-FUm"/>
+                            <constraint firstItem="cwa-fE-lNI" firstAttribute="top" secondItem="oNw-Kn-X9M" secondAttribute="bottom" constant="8" id="x8n-GJ-EJs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Patient" id="Stj-bF-HhM">
+                        <barButtonItem key="rightBarButtonItem" title="Add" width="10" id="kE2-sD-syd">
+                            <connections>
+                                <action selector="addPatientName:" destination="6nr-A1-4he" id="UcN-3K-7yc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="fourthsegmentView" destination="JDr-H2-ia3" id="M8o-TD-3yk"/>
+                        <outlet property="patientQueryView" destination="z3k-qW-a9l" id="gu1-Uy-M5X"/>
+                        <outlet property="patientSegmentedControl" destination="cwa-fE-lNI" id="Oji-Hw-njI"/>
+                        <outlet property="patientView" destination="AdM-6j-9lS" id="z66-Vq-LmI"/>
+                        <outlet property="thirdSegmentView" destination="LGP-Zj-OZn" id="Zf7-1M-Ufz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rrb-u4-6wb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2034" y="297"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Wbg-S9-8WD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CX2-Yw-HL4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SKG-Mr-m4b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6nr-A1-4he" kind="relationship" relationship="rootViewController" id="pCu-Xo-Pp0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hy9-SG-fT7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1222" y="297"/>
+        </scene>
+    </scenes>
+</document>

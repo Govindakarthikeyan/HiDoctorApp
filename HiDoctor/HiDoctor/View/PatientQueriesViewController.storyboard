@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vje-qV-qSr">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <scenes>
+        <!--Patient Queries-->
+        <scene sceneID="DdS-dZ-faR">
+            <objects>
+                <viewController storyboardIdentifier="PatientQueriesVcID" id="nJs-d6-gj3" customClass="PatientQueriesViewController" customModule="HiDoctor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Fb-aV-UQC"/>
+                        <viewControllerLayoutGuide type="bottom" id="7gg-ti-g48"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s4M-Gz-VAz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient Queries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsC-vr-Xg0">
+                                <rect key="frame" x="241" y="289" width="118" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TsC-vr-Xg0" firstAttribute="centerY" secondItem="s4M-Gz-VAz" secondAttribute="centerY" id="ZkP-pb-3qC"/>
+                            <constraint firstItem="TsC-vr-Xg0" firstAttribute="centerX" secondItem="s4M-Gz-VAz" secondAttribute="centerX" id="h20-9c-iv5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Patient Queries" id="nSg-ne-hsj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zJM-IB-Ut8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1010" y="367"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ku9-oy-Rk9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vje-qV-qSr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oP3-pW-OPU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nJs-d6-gj3" kind="relationship" relationship="rootViewController" id="xqa-3Y-981"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Hn-bh-EmP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="198" y="367"/>
+        </scene>
+    </scenes>
+</document>

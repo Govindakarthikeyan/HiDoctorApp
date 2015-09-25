@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188FD51D1BA1A9A600494B78 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5161BA1A9A600494B78 /* AlertViewController.swift */; };
+		188FD51E1BA1A9A600494B78 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5161BA1A9A600494B78 /* AlertViewController.swift */; };
+		188FD51F1BA1A9A600494B78 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5161BA1A9A600494B78 /* AlertViewController.swift */; };
+		188FD5201BA1A9A600494B78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5171BA1A9A600494B78 /* AppDelegate.swift */; };
+		188FD5211BA1A9A600494B78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5171BA1A9A600494B78 /* AppDelegate.swift */; };
+		188FD5221BA1A9A600494B78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5171BA1A9A600494B78 /* AppDelegate.swift */; };
+		188FD5231BA1A9A600494B78 /* DrugIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5181BA1A9A600494B78 /* DrugIndexViewController.swift */; };
+		188FD5241BA1A9A600494B78 /* DrugIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5181BA1A9A600494B78 /* DrugIndexViewController.swift */; };
+		188FD5251BA1A9A600494B78 /* DrugIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5181BA1A9A600494B78 /* DrugIndexViewController.swift */; };
+		188FD5261BA1A9A600494B78 /* HomeViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5191BA1A9A600494B78 /* HomeViewConroller.swift */; };
+		188FD5271BA1A9A600494B78 /* HomeViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5191BA1A9A600494B78 /* HomeViewConroller.swift */; };
+		188FD5281BA1A9A600494B78 /* HomeViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5191BA1A9A600494B78 /* HomeViewConroller.swift */; };
+		188FD5291BA1A9A600494B78 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD51A1BA1A9A600494B78 /* LandingViewController.swift */; };
+		188FD52A1BA1A9A600494B78 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD51A1BA1A9A600494B78 /* LandingViewController.swift */; };
+		188FD52B1BA1A9A600494B78 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD51A1BA1A9A600494B78 /* LandingViewController.swift */; };
+		188FD52C1BA1A9A600494B78 /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD51B1BA1A9A600494B78 /* PatientViewController.swift */; };
+		188FD52D1BA1A9A600494B78 /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD51B1BA1A9A600494B78 /* PatientViewController.swift */; };
+		188FD52E1BA1A9A600494B78 /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD51B1BA1A9A600494B78 /* PatientViewController.swift */; };
+		188FD52F1BA1A9A600494B78 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD51C1BA1A9A600494B78 /* SignupView.swift */; };
+		188FD5301BA1A9A600494B78 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD51C1BA1A9A600494B78 /* SignupView.swift */; };
+		188FD5311BA1A9A600494B78 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD51C1BA1A9A600494B78 /* SignupView.swift */; };
+		188FD5351BA1A9B300494B78 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5331BA1A9B300494B78 /* AppConstants.swift */; };
+		188FD5361BA1A9B300494B78 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5331BA1A9B300494B78 /* AppConstants.swift */; };
+		188FD5371BA1A9B300494B78 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5331BA1A9B300494B78 /* AppConstants.swift */; };
+		188FD5381BA1A9B300494B78 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5341BA1A9B300494B78 /* Validation.swift */; };
+		188FD5391BA1A9B300494B78 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5341BA1A9B300494B78 /* Validation.swift */; };
+		188FD53A1BA1A9B300494B78 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FD5341BA1A9B300494B78 /* Validation.swift */; };
+		188FD5411BA1A9E400494B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188FD53C1BA1A9E400494B78 /* Assets.xcassets */; };
+		188FD5421BA1A9E400494B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188FD53C1BA1A9E400494B78 /* Assets.xcassets */; };
+		188FD5431BA1A9E400494B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188FD53C1BA1A9E400494B78 /* Assets.xcassets */; };
+		188FD5441BA1A9E400494B78 /* HiDoctor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188FD53E1BA1A9E400494B78 /* HiDoctor.xcdatamodeld */; };
+		188FD5451BA1A9E400494B78 /* HiDoctor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188FD53E1BA1A9E400494B78 /* HiDoctor.xcdatamodeld */; };
+		188FD5461BA1A9E400494B78 /* HiDoctor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188FD53E1BA1A9E400494B78 /* HiDoctor.xcdatamodeld */; };
+		188FD5471BA1A9E400494B78 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 188FD5401BA1A9E400494B78 /* Info.plist */; };
+		188FD5481BA1A9E400494B78 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 188FD5401BA1A9E400494B78 /* Info.plist */; };
+		188FD5491BA1A9E400494B78 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 188FD5401BA1A9E400494B78 /* Info.plist */; };
+		188FD5521BA1ABC200494B78 /* AlertViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54B1BA1ABC200494B78 /* AlertViewController.storyboard */; };
+		188FD5531BA1ABC200494B78 /* AlertViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54B1BA1ABC200494B78 /* AlertViewController.storyboard */; };
+		188FD5541BA1ABC200494B78 /* AlertViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54B1BA1ABC200494B78 /* AlertViewController.storyboard */; };
+		188FD5551BA1ABC200494B78 /* DrugIndexViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54C1BA1ABC200494B78 /* DrugIndexViewController.storyboard */; };
+		188FD5561BA1ABC200494B78 /* DrugIndexViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54C1BA1ABC200494B78 /* DrugIndexViewController.storyboard */; };
+		188FD5571BA1ABC200494B78 /* DrugIndexViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54C1BA1ABC200494B78 /* DrugIndexViewController.storyboard */; };
+		188FD5581BA1ABC200494B78 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54D1BA1ABC200494B78 /* HomeViewController.storyboard */; };
+		188FD5591BA1ABC200494B78 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54D1BA1ABC200494B78 /* HomeViewController.storyboard */; };
+		188FD55A1BA1ABC200494B78 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54D1BA1ABC200494B78 /* HomeViewController.storyboard */; };
+		188FD55B1BA1ABC200494B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54E1BA1ABC200494B78 /* LaunchScreen.storyboard */; };
+		188FD55C1BA1ABC200494B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54E1BA1ABC200494B78 /* LaunchScreen.storyboard */; };
+		188FD55D1BA1ABC200494B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54E1BA1ABC200494B78 /* LaunchScreen.storyboard */; };
+		188FD55E1BA1ABC200494B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54F1BA1ABC200494B78 /* Main.storyboard */; };
+		188FD55F1BA1ABC200494B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54F1BA1ABC200494B78 /* Main.storyboard */; };
+		188FD5601BA1ABC200494B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD54F1BA1ABC200494B78 /* Main.storyboard */; };
+		188FD5611BA1ABC200494B78 /* PatientViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD5501BA1ABC200494B78 /* PatientViewController.storyboard */; };
+		188FD5621BA1ABC200494B78 /* PatientViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD5501BA1ABC200494B78 /* PatientViewController.storyboard */; };
+		188FD5631BA1ABC200494B78 /* PatientViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FD5501BA1ABC200494B78 /* PatientViewController.storyboard */; };
+		188FD5641BA1ABC200494B78 /* SignupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188FD5511BA1ABC200494B78 /* SignupView.xib */; };
+		188FD5651BA1ABC200494B78 /* SignupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188FD5511BA1ABC200494B78 /* SignupView.xib */; };
+		188FD5661BA1ABC200494B78 /* SignupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188FD5511BA1ABC200494B78 /* SignupView.xib */; };
+		1893F8F21BA300B300439E06 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E294C1BA1B58B00FDC29A /* WebService.swift */; };
+		1893F8F31BA300B300439E06 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E294C1BA1B58B00FDC29A /* WebService.swift */; };
+		1893F8F51BA305DB00439E06 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893F8F41BA305DB00439E06 /* HomeTableViewCell.swift */; };
+		1893F8F61BA305DB00439E06 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893F8F41BA305DB00439E06 /* HomeTableViewCell.swift */; };
+		1893F8F71BA305DB00439E06 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893F8F41BA305DB00439E06 /* HomeTableViewCell.swift */; };
+		9D495B351BB2C2FA00CA04F6 /* SpecialityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D495B341BB2C2FA00CA04F6 /* SpecialityViewController.swift */; };
+		9D8F99FF1BB1191A006B5260 /* slider_image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8F99FD1BB1191A006B5260 /* slider_image1.png */; };
+		9D8F9A001BB1191A006B5260 /* slider_image1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8F99FE1BB1191A006B5260 /* slider_image1@3x.png */; };
+		9DD07EBA1BB186870034C2B2 /* AddPatientViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD07EB91BB186870034C2B2 /* AddPatientViewController.storyboard */; };
+		9DE86B031BB278600052AF2B /* profile_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE86B021BB278600052AF2B /* profile_image.png */; };
+		B142272C1BA81CCB00CBC31D /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B142272B1BA81CCB00CBC31D /* AlertView.swift */; };
+		B142272D1BA81CCB00CBC31D /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B142272B1BA81CCB00CBC31D /* AlertView.swift */; };
+		B142272E1BA81CCB00CBC31D /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B142272B1BA81CCB00CBC31D /* AlertView.swift */; };
+		B16E294D1BA1B58B00FDC29A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E294C1BA1B58B00FDC29A /* WebService.swift */; };
+		B1B0894F1BA7F3E200FF64DC /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0894E1BA7F3E200FF64DC /* ActivityIndicator.swift */; };
+		B1B089501BA7F3E200FF64DC /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0894E1BA7F3E200FF64DC /* ActivityIndicator.swift */; };
+		B1B089511BA7F3E200FF64DC /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0894E1BA7F3E200FF64DC /* ActivityIndicator.swift */; };
+		B1B541CB1B997C3A00FF2DF9 /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1B541C91B997C3A00FF2DF9 /* SourceSansPro-Regular.otf */; };
+		B1B541CC1B997C3A00FF2DF9 /* SourceSansPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1B541CA1B997C3A00FF2DF9 /* SourceSansPro-Semibold.otf */; };
+		B1B541D21B99B9E800FF2DF9 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1B541D11B99B9E800FF2DF9 /* SourceSansPro-Bold.otf */; };
+		B1BD42EB1B95613700B6AED7 /* HiDoctorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD42EA1B95613700B6AED7 /* HiDoctorTests.swift */; };
+		B1BD42F61B95613700B6AED7 /* HiDoctorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD42F51B95613700B6AED7 /* HiDoctorUITests.swift */; };
+		CF96C67362E05A593426FBBE /* libPods-HiDoctor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9354CAA100CD5B5F85022BC6 /* libPods-HiDoctor.a */; };
+		E9CF3E101BA559D900529206 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CF3E0F1BA559D900529206 /* MoreViewController.swift */; };
+		E9CF3E121BA55AB300529206 /* MoreViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CF3E111BA55AB300529206 /* MoreViewController.storyboard */; };
+		E9F6385B1BA838840064887C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6385A1BA838840064887C /* ProfileViewController.swift */; };
+		E9F6385D1BA838A00064887C /* PatientAppoinmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6385C1BA838A00064887C /* PatientAppoinmentViewController.swift */; };
+		E9F6385F1BA838C10064887C /* PatientQueriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6385E1BA838C10064887C /* PatientQueriesViewController.swift */; };
+		E9F638611BA838D20064887C /* PharmaCompaniesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F638601BA838D20064887C /* PharmaCompaniesViewController.swift */; };
+		E9F638631BA838F70064887C /* InsightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F638621BA838F70064887C /* InsightsViewController.swift */; };
+		E9F638651BA839200064887C /* ProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F638641BA839200064887C /* ProfileViewController.storyboard */; };
+		E9F638671BA8392E0064887C /* PatientAppoinmentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F638661BA8392E0064887C /* PatientAppoinmentViewController.storyboard */; };
+		E9F638691BA8393E0064887C /* PatientQueriesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F638681BA8393E0064887C /* PatientQueriesViewController.storyboard */; };
+		E9F6386B1BA8395F0064887C /* PharmaCompaniesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F6386A1BA8395F0064887C /* PharmaCompaniesViewController.storyboard */; };
+		E9F6386D1BA839760064887C /* InsightsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F6386C1BA839760064887C /* InsightsViewController.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1BD42E71B95613700B6AED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1BD42C71B95613600B6AED7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1BD42CE1B95613600B6AED7;
+			remoteInfo = HiDoctor;
+		};
+		B1BD42F21B95613700B6AED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1BD42C71B95613600B6AED7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1BD42CE1B95613600B6AED7;
+			remoteInfo = HiDoctor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B4AD754AE485192AFC3A8F /* Pods-HiDoctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiDoctor.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiDoctor/Pods-HiDoctor.release.xcconfig"; sourceTree = "<group>"; };
+		0D6013661A4BB0B4CD90A491 /* Pods-HiDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiDoctor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiDoctor/Pods-HiDoctor.debug.xcconfig"; sourceTree = "<group>"; };
+		188FD5161BA1A9A600494B78 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		188FD5171BA1A9A600494B78 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		188FD5181BA1A9A600494B78 /* DrugIndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugIndexViewController.swift; sourceTree = "<group>"; };
+		188FD5191BA1A9A600494B78 /* HomeViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewConroller.swift; sourceTree = "<group>"; };
+		188FD51A1BA1A9A600494B78 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		188FD51B1BA1A9A600494B78 /* PatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
+		188FD51C1BA1A9A600494B78 /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		188FD5331BA1A9B300494B78 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		188FD5341BA1A9B300494B78 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		188FD53C1BA1A9E400494B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188FD53D1BA1A9E400494B78 /* HiDoctor-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HiDoctor-Bridging-Header.h"; sourceTree = "<group>"; };
+		188FD53F1BA1A9E400494B78 /* HiDoctor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HiDoctor.xcdatamodel; sourceTree = "<group>"; };
+		188FD5401BA1A9E400494B78 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188FD54B1BA1ABC200494B78 /* AlertViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlertViewController.storyboard; sourceTree = "<group>"; };
+		188FD54C1BA1ABC200494B78 /* DrugIndexViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DrugIndexViewController.storyboard; sourceTree = "<group>"; };
+		188FD54D1BA1ABC200494B78 /* HomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		188FD54E1BA1ABC200494B78 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188FD54F1BA1ABC200494B78 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		188FD5501BA1ABC200494B78 /* PatientViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PatientViewController.storyboard; sourceTree = "<group>"; };
+		188FD5511BA1ABC200494B78 /* SignupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignupView.xib; sourceTree = "<group>"; };
+		1893F8F41BA305DB00439E06 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		9354CAA100CD5B5F85022BC6 /* libPods-HiDoctor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HiDoctor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D495B341BB2C2FA00CA04F6 /* SpecialityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialityViewController.swift; sourceTree = "<group>"; };
+		9D8F99FD1BB1191A006B5260 /* slider_image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_image1.png; sourceTree = "<group>"; };
+		9D8F99FE1BB1191A006B5260 /* slider_image1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider_image1@3x.png"; sourceTree = "<group>"; };
+		9DD07EB91BB186870034C2B2 /* AddPatientViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddPatientViewController.storyboard; sourceTree = "<group>"; };
+		9DE86B021BB278600052AF2B /* profile_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_image.png; sourceTree = "<group>"; };
+		B142272B1BA81CCB00CBC31D /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		B16E294C1BA1B58B00FDC29A /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		B1B0894E1BA7F3E200FF64DC /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		B1B541C91B997C3A00FF2DF9 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		B1B541CA1B997C3A00FF2DF9 /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
+		B1B541D11B99B9E800FF2DF9 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		B1BD42CF1B95613600B6AED7 /* HiDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BD42E61B95613700B6AED7 /* HiDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BD42EA1B95613700B6AED7 /* HiDoctorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiDoctorTests.swift; sourceTree = "<group>"; };
+		B1BD42EC1B95613700B6AED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1BD42F11B95613700B6AED7 /* HiDoctorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiDoctorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BD42F51B95613700B6AED7 /* HiDoctorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiDoctorUITests.swift; sourceTree = "<group>"; };
+		B1BD42F71B95613700B6AED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9CF3E0F1BA559D900529206 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		E9CF3E111BA55AB300529206 /* MoreViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MoreViewController.storyboard; sourceTree = "<group>"; };
+		E9F6385A1BA838840064887C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E9F6385C1BA838A00064887C /* PatientAppoinmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientAppoinmentViewController.swift; path = ../Class/PatientAppoinmentViewController.swift; sourceTree = "<group>"; };
+		E9F6385E1BA838C10064887C /* PatientQueriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientQueriesViewController.swift; sourceTree = "<group>"; };
+		E9F638601BA838D20064887C /* PharmaCompaniesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PharmaCompaniesViewController.swift; sourceTree = "<group>"; };
+		E9F638621BA838F70064887C /* InsightsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsightsViewController.swift; sourceTree = "<group>"; };
+		E9F638641BA839200064887C /* ProfileViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileViewController.storyboard; sourceTree = "<group>"; };
+		E9F638661BA8392E0064887C /* PatientAppoinmentViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PatientAppoinmentViewController.storyboard; sourceTree = "<group>"; };
+		E9F638681BA8393E0064887C /* PatientQueriesViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PatientQueriesViewController.storyboard; sourceTree = "<group>"; };
+		E9F6386A1BA8395F0064887C /* PharmaCompaniesViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PharmaCompaniesViewController.storyboard; sourceTree = "<group>"; };
+		E9F6386C1BA839760064887C /* InsightsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InsightsViewController.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1BD42CC1B95613600B6AED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF96C67362E05A593426FBBE /* libPods-HiDoctor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD42E31B95613700B6AED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD42EE1B95613700B6AED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188FD5151BA1A9A600494B78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				188FD5161BA1A9A600494B78 /* AlertViewController.swift */,
+				188FD5171BA1A9A600494B78 /* AppDelegate.swift */,
+				188FD5181BA1A9A600494B78 /* DrugIndexViewController.swift */,
+				188FD5191BA1A9A600494B78 /* HomeViewConroller.swift */,
+				188FD51C1BA1A9A600494B78 /* SignupView.swift */,
+				188FD51A1BA1A9A600494B78 /* LandingViewController.swift */,
+				188FD51B1BA1A9A600494B78 /* PatientViewController.swift */,
+				E9CF3E0F1BA559D900529206 /* MoreViewController.swift */,
+				E9F6385A1BA838840064887C /* ProfileViewController.swift */,
+				9D495B341BB2C2FA00CA04F6 /* SpecialityViewController.swift */,
+				E9F6385C1BA838A00064887C /* PatientAppoinmentViewController.swift */,
+				E9F6385E1BA838C10064887C /* PatientQueriesViewController.swift */,
+				E9F638601BA838D20064887C /* PharmaCompaniesViewController.swift */,
+				E9F638621BA838F70064887C /* InsightsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		188FD5321BA1A9B300494B78 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B1B0894E1BA7F3E200FF64DC /* ActivityIndicator.swift */,
+				188FD5331BA1A9B300494B78 /* AppConstants.swift */,
+				188FD5341BA1A9B300494B78 /* Validation.swift */,
+				B16E294C1BA1B58B00FDC29A /* WebService.swift */,
+				1893F8F41BA305DB00439E06 /* HomeTableViewCell.swift */,
+				B142272B1BA81CCB00CBC31D /* AlertView.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		188FD53B1BA1A9E400494B78 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				188FD53C1BA1A9E400494B78 /* Assets.xcassets */,
+				188FD53D1BA1A9E400494B78 /* HiDoctor-Bridging-Header.h */,
+				188FD53E1BA1A9E400494B78 /* HiDoctor.xcdatamodeld */,
+				188FD5401BA1A9E400494B78 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		188FD54A1BA1ABC200494B78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				188FD54B1BA1ABC200494B78 /* AlertViewController.storyboard */,
+				188FD54C1BA1ABC200494B78 /* DrugIndexViewController.storyboard */,
+				188FD54D1BA1ABC200494B78 /* HomeViewController.storyboard */,
+				188FD54E1BA1ABC200494B78 /* LaunchScreen.storyboard */,
+				188FD54F1BA1ABC200494B78 /* Main.storyboard */,
+				188FD5501BA1ABC200494B78 /* PatientViewController.storyboard */,
+				188FD5511BA1ABC200494B78 /* SignupView.xib */,
+				E9CF3E111BA55AB300529206 /* MoreViewController.storyboard */,
+				E9F638641BA839200064887C /* ProfileViewController.storyboard */,
+				E9F638661BA8392E0064887C /* PatientAppoinmentViewController.storyboard */,
+				E9F638681BA8393E0064887C /* PatientQueriesViewController.storyboard */,
+				E9F6386A1BA8395F0064887C /* PharmaCompaniesViewController.storyboard */,
+				E9F6386C1BA839760064887C /* InsightsViewController.storyboard */,
+				9DD07EB91BB186870034C2B2 /* AddPatientViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1B541C81B997C3A00FF2DF9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B1B541D11B99B9E800FF2DF9 /* SourceSansPro-Bold.otf */,
+				B1B541C91B997C3A00FF2DF9 /* SourceSansPro-Regular.otf */,
+				B1B541CA1B997C3A00FF2DF9 /* SourceSansPro-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B1BD42C61B95613600B6AED7 = {
+			isa = PBXGroup;
+			children = (
+				B1BD42D11B95613600B6AED7 /* HiDoctor */,
+				B1BD42E91B95613700B6AED7 /* HiDoctorTests */,
+				B1BD42F41B95613700B6AED7 /* HiDoctorUITests */,
+				B1BD42D01B95613600B6AED7 /* Products */,
+				D17C489B995CF7A7D4A7C599 /* Pods */,
+				DCE244591F2ED22F09F7CA17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1BD42D01B95613600B6AED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD42CF1B95613600B6AED7 /* HiDoctor.app */,
+				B1BD42E61B95613700B6AED7 /* HiDoctorTests.xctest */,
+				B1BD42F11B95613700B6AED7 /* HiDoctorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1BD42D11B95613600B6AED7 /* HiDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				188FD5321BA1A9B300494B78 /* Class */,
+				188FD5151BA1A9A600494B78 /* Controller */,
+				188FD54A1BA1ABC200494B78 /* View */,
+				B1FFC4751B95A9A000046FA2 /* Resources */,
+				188FD53B1BA1A9E400494B78 /* Others */,
+			);
+			path = HiDoctor;
+			sourceTree = "<group>";
+		};
+		B1BD42E91B95613700B6AED7 /* HiDoctorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD42EA1B95613700B6AED7 /* HiDoctorTests.swift */,
+				B1BD42EC1B95613700B6AED7 /* Info.plist */,
+			);
+			path = HiDoctorTests;
+			sourceTree = "<group>";
+		};
+		B1BD42F41B95613700B6AED7 /* HiDoctorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD42F51B95613700B6AED7 /* HiDoctorUITests.swift */,
+				B1BD42F71B95613700B6AED7 /* Info.plist */,
+			);
+			path = HiDoctorUITests;
+			sourceTree = "<group>";
+		};
+		B1FFC4751B95A9A000046FA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DE86B021BB278600052AF2B /* profile_image.png */,
+				9D8F99FD1BB1191A006B5260 /* slider_image1.png */,
+				9D8F99FE1BB1191A006B5260 /* slider_image1@3x.png */,
+				B1B541C81B997C3A00FF2DF9 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D17C489B995CF7A7D4A7C599 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D6013661A4BB0B4CD90A491 /* Pods-HiDoctor.debug.xcconfig */,
+				07B4AD754AE485192AFC3A8F /* Pods-HiDoctor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCE244591F2ED22F09F7CA17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9354CAA100CD5B5F85022BC6 /* libPods-HiDoctor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1BD42CE1B95613600B6AED7 /* HiDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BD42FA1B95613700B6AED7 /* Build configuration list for PBXNativeTarget "HiDoctor" */;
+			buildPhases = (
+				343BAB83EA99898CED4D4BDC /* Check Pods Manifest.lock */,
+				B1BD42CB1B95613600B6AED7 /* Sources */,
+				B1BD42CC1B95613600B6AED7 /* Frameworks */,
+				B1BD42CD1B95613600B6AED7 /* Resources */,
+				188FD4F61BA17BD500494B78 /* ShellScript */,
+				09932D5DB589033020F7FDF1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiDoctor;
+			productName = HiDoctor;
+			productReference = B1BD42CF1B95613600B6AED7 /* HiDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1BD42E51B95613700B6AED7 /* HiDoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BD42FD1B95613700B6AED7 /* Build configuration list for PBXNativeTarget "HiDoctorTests" */;
+			buildPhases = (
+				B1BD42E21B95613700B6AED7 /* Sources */,
+				B1BD42E31B95613700B6AED7 /* Frameworks */,
+				B1BD42E41B95613700B6AED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1BD42E81B95613700B6AED7 /* PBXTargetDependency */,
+			);
+			name = HiDoctorTests;
+			productName = HiDoctorTests;
+			productReference = B1BD42E61B95613700B6AED7 /* HiDoctorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1BD42F01B95613700B6AED7 /* HiDoctorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BD43001B95613700B6AED7 /* Build configuration list for PBXNativeTarget "HiDoctorUITests" */;
+			buildPhases = (
+				B1BD42ED1B95613700B6AED7 /* Sources */,
+				B1BD42EE1B95613700B6AED7 /* Frameworks */,
+				B1BD42EF1B95613700B6AED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1BD42F31B95613700B6AED7 /* PBXTargetDependency */,
+			);
+			name = HiDoctorUITests;
+			productName = HiDoctorUITests;
+			productReference = B1BD42F11B95613700B6AED7 /* HiDoctorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1BD42C71B95613600B6AED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Swaas Systems";
+				TargetAttributes = {
+					B1BD42CE1B95613600B6AED7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B1BD42E51B95613700B6AED7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B1BD42CE1B95613600B6AED7;
+					};
+					B1BD42F01B95613700B6AED7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B1BD42CE1B95613600B6AED7;
+					};
+				};
+			};
+			buildConfigurationList = B1BD42CA1B95613600B6AED7 /* Build configuration list for PBXProject "HiDoctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1BD42C61B95613600B6AED7;
+			productRefGroup = B1BD42D01B95613600B6AED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1BD42CE1B95613600B6AED7 /* HiDoctor */,
+				B1BD42E51B95613700B6AED7 /* HiDoctorTests */,
+				B1BD42F01B95613700B6AED7 /* HiDoctorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1BD42CD1B95613600B6AED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188FD5641BA1ABC200494B78 /* SignupView.xib in Resources */,
+				9DE86B031BB278600052AF2B /* profile_image.png in Resources */,
+				B1B541D21B99B9E800FF2DF9 /* SourceSansPro-Bold.otf in Resources */,
+				188FD5471BA1A9E400494B78 /* Info.plist in Resources */,
+				E9F6386D1BA839760064887C /* InsightsViewController.storyboard in Resources */,
+				E9F638691BA8393E0064887C /* PatientQueriesViewController.storyboard in Resources */,
+				E9F638671BA8392E0064887C /* PatientAppoinmentViewController.storyboard in Resources */,
+				188FD5611BA1ABC200494B78 /* PatientViewController.storyboard in Resources */,
+				E9F6386B1BA8395F0064887C /* PharmaCompaniesViewController.storyboard in Resources */,
+				9D8F9A001BB1191A006B5260 /* slider_image1@3x.png in Resources */,
+				188FD5551BA1ABC200494B78 /* DrugIndexViewController.storyboard in Resources */,
+				188FD55E1BA1ABC200494B78 /* Main.storyboard in Resources */,
+				9DD07EBA1BB186870034C2B2 /* AddPatientViewController.storyboard in Resources */,
+				188FD55B1BA1ABC200494B78 /* LaunchScreen.storyboard in Resources */,
+				188FD5521BA1ABC200494B78 /* AlertViewController.storyboard in Resources */,
+				9D8F99FF1BB1191A006B5260 /* slider_image1.png in Resources */,
+				188FD5581BA1ABC200494B78 /* HomeViewController.storyboard in Resources */,
+				B1B541CB1B997C3A00FF2DF9 /* SourceSansPro-Regular.otf in Resources */,
+				E9F638651BA839200064887C /* ProfileViewController.storyboard in Resources */,
+				188FD5411BA1A9E400494B78 /* Assets.xcassets in Resources */,
+				E9CF3E121BA55AB300529206 /* MoreViewController.storyboard in Resources */,
+				B1B541CC1B997C3A00FF2DF9 /* SourceSansPro-Semibold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD42E41B95613700B6AED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188FD55F1BA1ABC200494B78 /* Main.storyboard in Resources */,
+				188FD5591BA1ABC200494B78 /* HomeViewController.storyboard in Resources */,
+				188FD5481BA1A9E400494B78 /* Info.plist in Resources */,
+				188FD5421BA1A9E400494B78 /* Assets.xcassets in Resources */,
+				188FD55C1BA1ABC200494B78 /* LaunchScreen.storyboard in Resources */,
+				188FD5651BA1ABC200494B78 /* SignupView.xib in Resources */,
+				188FD5561BA1ABC200494B78 /* DrugIndexViewController.storyboard in Resources */,
+				188FD5621BA1ABC200494B78 /* PatientViewController.storyboard in Resources */,
+				188FD5531BA1ABC200494B78 /* AlertViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD42EF1B95613700B6AED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188FD5601BA1ABC200494B78 /* Main.storyboard in Resources */,
+				188FD55A1BA1ABC200494B78 /* HomeViewController.storyboard in Resources */,
+				188FD5491BA1A9E400494B78 /* Info.plist in Resources */,
+				188FD5431BA1A9E400494B78 /* Assets.xcassets in Resources */,
+				188FD55D1BA1ABC200494B78 /* LaunchScreen.storyboard in Resources */,
+				188FD5661BA1ABC200494B78 /* SignupView.xib in Resources */,
+				188FD5571BA1ABC200494B78 /* DrugIndexViewController.storyboard in Resources */,
+				188FD5631BA1ABC200494B78 /* PatientViewController.storyboard in Resources */,
+				188FD5541BA1ABC200494B78 /* AlertViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09932D5DB589033020F7FDF1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiDoctor/Pods-HiDoctor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		188FD4F61BA17BD500494B78 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
+		};
+		343BAB83EA99898CED4D4BDC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1BD42CB1B95613600B6AED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16E294D1BA1B58B00FDC29A /* WebService.swift in Sources */,
+				188FD5351BA1A9B300494B78 /* AppConstants.swift in Sources */,
+				188FD5291BA1A9A600494B78 /* LandingViewController.swift in Sources */,
+				E9CF3E101BA559D900529206 /* MoreViewController.swift in Sources */,
+				B1B0894F1BA7F3E200FF64DC /* ActivityIndicator.swift in Sources */,
+				9D495B351BB2C2FA00CA04F6 /* SpecialityViewController.swift in Sources */,
+				B142272C1BA81CCB00CBC31D /* AlertView.swift in Sources */,
+				188FD51D1BA1A9A600494B78 /* AlertViewController.swift in Sources */,
+				188FD5441BA1A9E400494B78 /* HiDoctor.xcdatamodeld in Sources */,
+				188FD52F1BA1A9A600494B78 /* SignupView.swift in Sources */,
+				E9F6385F1BA838C10064887C /* PatientQueriesViewController.swift in Sources */,
+				1893F8F51BA305DB00439E06 /* HomeTableViewCell.swift in Sources */,
+				188FD5261BA1A9A600494B78 /* HomeViewConroller.swift in Sources */,
+				188FD5201BA1A9A600494B78 /* AppDelegate.swift in Sources */,
+				188FD5231BA1A9A600494B78 /* DrugIndexViewController.swift in Sources */,
+				E9F6385B1BA838840064887C /* ProfileViewController.swift in Sources */,
+				188FD5381BA1A9B300494B78 /* Validation.swift in Sources */,
+				E9F638611BA838D20064887C /* PharmaCompaniesViewController.swift in Sources */,
+				188FD52C1BA1A9A600494B78 /* PatientViewController.swift in Sources */,
+				E9F6385D1BA838A00064887C /* PatientAppoinmentViewController.swift in Sources */,
+				E9F638631BA838F70064887C /* InsightsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD42E21B95613700B6AED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188FD5211BA1A9A600494B78 /* AppDelegate.swift in Sources */,
+				188FD5361BA1A9B300494B78 /* AppConstants.swift in Sources */,
+				1893F8F61BA305DB00439E06 /* HomeTableViewCell.swift in Sources */,
+				188FD52D1BA1A9A600494B78 /* PatientViewController.swift in Sources */,
+				B1B089501BA7F3E200FF64DC /* ActivityIndicator.swift in Sources */,
+				B142272D1BA81CCB00CBC31D /* AlertView.swift in Sources */,
+				188FD5451BA1A9E400494B78 /* HiDoctor.xcdatamodeld in Sources */,
+				188FD5271BA1A9A600494B78 /* HomeViewConroller.swift in Sources */,
+				188FD5241BA1A9A600494B78 /* DrugIndexViewController.swift in Sources */,
+				1893F8F21BA300B300439E06 /* WebService.swift in Sources */,
+				188FD5301BA1A9A600494B78 /* SignupView.swift in Sources */,
+				188FD51E1BA1A9A600494B78 /* AlertViewController.swift in Sources */,
+				188FD52A1BA1A9A600494B78 /* LandingViewController.swift in Sources */,
+				188FD5391BA1A9B300494B78 /* Validation.swift in Sources */,
+				B1BD42EB1B95613700B6AED7 /* HiDoctorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD42ED1B95613700B6AED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188FD5221BA1A9A600494B78 /* AppDelegate.swift in Sources */,
+				188FD5371BA1A9B300494B78 /* AppConstants.swift in Sources */,
+				1893F8F71BA305DB00439E06 /* HomeTableViewCell.swift in Sources */,
+				188FD52E1BA1A9A600494B78 /* PatientViewController.swift in Sources */,
+				B1B089511BA7F3E200FF64DC /* ActivityIndicator.swift in Sources */,
+				B142272E1BA81CCB00CBC31D /* AlertView.swift in Sources */,
+				188FD5461BA1A9E400494B78 /* HiDoctor.xcdatamodeld in Sources */,
+				188FD5281BA1A9A600494B78 /* HomeViewConroller.swift in Sources */,
+				188FD5251BA1A9A600494B78 /* DrugIndexViewController.swift in Sources */,
+				1893F8F31BA300B300439E06 /* WebService.swift in Sources */,
+				188FD5311BA1A9A600494B78 /* SignupView.swift in Sources */,
+				188FD51F1BA1A9A600494B78 /* AlertViewController.swift in Sources */,
+				188FD52B1BA1A9A600494B78 /* LandingViewController.swift in Sources */,
+				188FD53A1BA1A9B300494B78 /* Validation.swift in Sources */,
+				B1BD42F61B95613700B6AED7 /* HiDoctorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1BD42E81B95613700B6AED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1BD42CE1B95613600B6AED7 /* HiDoctor */;
+			targetProxy = B1BD42E71B95613700B6AED7 /* PBXContainerItemProxy */;
+		};
+		B1BD42F31B95613700B6AED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1BD42CE1B95613600B6AED7 /* HiDoctor */;
+			targetProxy = B1BD42F21B95613700B6AED7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B1BD42F81B95613700B6AED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1BD42F91B95613700B6AED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1BD42FB1B95613700B6AED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6013661A4BB0B4CD90A491 /* Pods-HiDoctor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HiDoctor/Others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swaas.HiDoctor;
+				PRODUCT_NAME = HiDoctor;
+				SWIFT_OBJC_BRIDGING_HEADER = "../HiDoctor/HiDoctor/Others/HiDoctor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1BD42FC1B95613700B6AED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B4AD754AE485192AFC3A8F /* Pods-HiDoctor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = RELEASE;
+				INFOPLIST_FILE = HiDoctor/Others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swaas.HiDoctor;
+				PRODUCT_NAME = HiDoctor;
+				SWIFT_OBJC_BRIDGING_HEADER = "../HiDoctor/HiDoctor/Others/HiDoctor-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B1BD42FE1B95613700B6AED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HiDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swaas.HiDoctorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiDoctor.app/HiDoctor";
+			};
+			name = Debug;
+		};
+		B1BD42FF1B95613700B6AED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HiDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swaas.HiDoctorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiDoctor.app/HiDoctor";
+			};
+			name = Release;
+		};
+		B1BD43011B95613700B6AED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HiDoctorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swaas.HiDoctorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HiDoctor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B1BD43021B95613700B6AED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HiDoctorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swaas.HiDoctorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HiDoctor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1BD42CA1B95613600B6AED7 /* Build configuration list for PBXProject "HiDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BD42F81B95613700B6AED7 /* Debug */,
+				B1BD42F91B95613700B6AED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1BD42FA1B95613700B6AED7 /* Build configuration list for PBXNativeTarget "HiDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BD42FB1B95613700B6AED7 /* Debug */,
+				B1BD42FC1B95613700B6AED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1BD42FD1B95613700B6AED7 /* Build configuration list for PBXNativeTarget "HiDoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BD42FE1B95613700B6AED7 /* Debug */,
+				B1BD42FF1B95613700B6AED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1BD43001B95613700B6AED7 /* Build configuration list for PBXNativeTarget "HiDoctorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BD43011B95613700B6AED7 /* Debug */,
+				B1BD43021B95613700B6AED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		188FD53E1BA1A9E400494B78 /* HiDoctor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				188FD53F1BA1A9E400494B78 /* HiDoctor.xcdatamodel */,
+			);
+			currentVersion = 188FD53F1BA1A9E400494B78 /* HiDoctor.xcdatamodel */;
+			path = HiDoctor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B1BD42C71B95613600B6AED7 /* Project object */;
+}

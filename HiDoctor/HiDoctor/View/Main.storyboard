@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SourceSansPro-Semibold.otf">
+            <string>SourceSansPro-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Landing View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="landingVcID" id="BYZ-38-t0r" customClass="LandingViewController" customModule="DrBond" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u2W-FD-0e4">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="0ob-0Z-QSV"/>
+                                </connections>
+                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Iq-ee-1IE">
+                                <rect key="frame" x="0.0" y="550" width="600" height="49"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XK8-FI-vbI">
+                                        <rect key="frame" x="450" y="10" width="139" height="30"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="8ma-Xf-Tzj"/>
+                                            <constraint firstAttribute="width" constant="139" id="Hg6-SR-Lq6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="14"/>
+                                        <state key="normal" title="CREATE ACCOUNT">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="submitAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RJI-iv-ifH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="0fO-ZY-Q8K"/>
+                                    <constraint firstAttribute="trailing" secondItem="XK8-FI-vbI" secondAttribute="trailing" constant="11" id="bdq-0C-5mH"/>
+                                    <constraint firstItem="XK8-FI-vbI" firstAttribute="centerY" secondItem="4Iq-ee-1IE" secondAttribute="centerY" id="gVf-Hf-kof"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="u2W-FD-0e4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8Pi-on-nec"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="u2W-FD-0e4" secondAttribute="bottom" id="BP1-EA-PFq"/>
+                            <constraint firstItem="u2W-FD-0e4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EHQ-5J-bb1"/>
+                            <constraint firstAttribute="trailing" secondItem="u2W-FD-0e4" secondAttribute="trailing" id="TOB-KZ-3mT"/>
+                            <constraint firstItem="4Iq-ee-1IE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ThY-Je-HMM"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4Iq-ee-1IE" secondAttribute="bottom" constant="1" id="aur-YE-cAu"/>
+                            <constraint firstItem="4Iq-ee-1IE" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="gxT-c5-fNb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btmView" destination="4Iq-ee-1IE" id="hBL-Uf-91y"/>
+                        <outlet property="imageSlider" destination="u2W-FD-0e4" id="drs-FC-xSb"/>
+                        <outlet property="submitBtn" destination="XK8-FI-vbI" id="4Ea-ZQ-xeq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1063" y="296"/>
+        </scene>
+    </scenes>
+</document>

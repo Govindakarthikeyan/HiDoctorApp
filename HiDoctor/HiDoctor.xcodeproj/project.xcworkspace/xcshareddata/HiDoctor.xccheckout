@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CA4C6A5D-C8B2-4BBC-8F46-C4811FE3F32D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>964C70E9FF49BE23A348A8D3CABA4BA436BF37C1</key>
+		<string>https://github.com/narayanan-swaas/DoctorApp---iOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HiDoctor/HiDoctor.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>964C70E9FF49BE23A348A8D3CABA4BA436BF37C1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/narayanan-swaas/DoctorApp---iOS</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>964C70E9FF49BE23A348A8D3CABA4BA436BF37C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>964C70E9FF49BE23A348A8D3CABA4BA436BF37C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>devs</string>
+		</dict>
+	</array>
+</dict>
+</plist>
